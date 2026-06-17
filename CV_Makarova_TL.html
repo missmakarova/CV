@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Екатерина Макарова — QA Lead CV</title>
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --accent-soft: #eaf1ff;
+      --border: #e5e7eb;
+      --shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 32px 16px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.55;
+    }
+
+    .page {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px 28px;
+      margin-bottom: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .name {
+      font-size: 30px;
+      line-height: 1.2;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin: 0 0 14px;
+    }
+
+    .contacts {
+      display: grid;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 22px;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    h3 {
+      margin: 22px 0 6px;
+      font-size: 19px;
+      line-height: 1.25;
+    }
+
+    h4 {
+      margin: 18px 0 8px;
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    .role-title {
+      margin-top: 0;
+      font-size: 18px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .company {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    .divider {
+      border-top: 1px solid var(--border);
+      margin: 22px 0;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .chip {
+      background: var(--accent-soft);
+      color: #1d4ed8;
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .highlight {
+      font-weight: 700;
+      color: #111827;
+    }
+
+    .job {
+      padding: 18px 0 0;
+    }
+
+    .job:first-of-type {
+      padding-top: 0;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+
+    @media (min-width: 760px) {
+      .two-col {
+        grid-template-columns: 1.2fr 0.8fr;
+      }
+    }
+
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+
+      .card {
+        box-shadow: none;
+        border: 1px solid #ddd;
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+
+    <section class="card">
+      <h1 class="name">Екатерина Сергеевна Макарова</h1>
+      <div class="contacts">
+        <div>📍 Москва, Россия</div>
+        <div>📧 miss.makarova@internet.ru</div>
+        <div>📱 +7 903 085-02-34 (Telegram / WhatsApp / MAX)</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>🎯 QA Lead</h2>
+      <p>QA Lead с 9+ лет опыта в тестировании backend- и API-систем в микросервисной архитектуре. Управляла качеством продуктовых блоков в рамках нескольких кросс-функциональных команд разработки и QA-командой до 7 инженеров.</p>
+      <p>Выстраиваю систему качества продукта end-to-end: от тестовой стратегии и ручного тестирования до автоматизации API на Python (Pytest) и интеграции QA в CI/CD процессы.</p>
+      <p>Имею практический опыт работы с Postman, Swagger, SQL (PostgreSQL), Kafka. Совмещаю hands-on тестирование с управлением командой: 1-1, найм, развитие инженеров и организация QA-процессов. Фокус: снижение production дефектов, повышение стабильности релизов и развитие тестовой стратегии через автоматизацию.</p>
+      <div class="chips">
+        <span class="chip">Backend / API</span>
+        <span class="chip">Python / Pytest</span>
+        <span class="chip">Microservices</span>
+        <span class="chip">CI/CD</span>
+        <span class="chip">Risk-based testing</span>
+        <span class="chip">QA Lead</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>💼 Опыт работы</h2>
+
+      <article class="job">
+        <h3>Ведущий инженер по тестированию</h3>
+        <p class="company">Авито ТЕХ | 09.2025 – 05.2026</p>
+
+        <h4>Обязанности</h4>
+        <ul>
+          <li>Выстраивание системы качества в рамках 3 команд разработки</li>
+          <li>Оценка рисков перед релизами на уровне нескольких команд</li>
+          <li>QA ownership backend-heavy продукта (Авито Мессенджер)</li>
+          <li>Передача QA-экспертизы разработке (dev-test collaboration)</li>
+          <li>Управление качеством релизов (web / mobile / API)</li>
+          <li>Наставничество 2 QA инженеров</li>
+          <li>Участие в автоматизации API тестов (Python)</li>
+        </ul>
+
+        <h4>Результаты</h4>
+        <ul>
+          <li><span class="highlight">−60%</span> времени анализа CI failures (AI triage, Claude API)</li>
+          <li><span class="highlight">−15%</span> Change Failure Rate за счёт risk-based testing</li>
+          <li><span class="highlight">−20%</span> Change Failure Rate через единые quality gates юнита</li>
+          <li><span class="highlight">−35%</span> Defect Leakage в production за счёт переработки тестовой архитектуры и перехода к API-first пирамиде тестирования</li>
+        </ul>
+      </article>
+
+      <div class="divider"></div>
+
+      <article class="job">
+        <h3>QA Lead</h3>
+        <p class="company">Тинькофф Банк | 09.2023 – 08.2025</p>
+
+        <h4>Обязанности</h4>
+        <ul>
+          <li>Руководство QA-командой (7 инженеров)</li>
+          <li>Построение процессов тестирования в микросервисной архитектуре</li>
+          <li>Разработка стратегии тестирования (API / integration / UI)</li>
+          <li>Внедрение quality gates и критериев релизной готовности</li>
+          <li>Управление компетенциями команды (найм и развитие)</li>
+        </ul>
+
+        <h4>Результаты</h4>
+        <ul>
+          <li><span class="highlight">−30%</span> дефектов и снижение итераций тестирования с 3–4 до 1 (shift-left, 3 Amigos)</li>
+          <li>Создание с нуля API automation на Python (Pytest), переход с JS при миграции backend на Go → снижение стоимости поддержки тестов и ускорение RCA в 2 раза</li>
+          <li>Внедрение data-driven системы метрик качества (Defect Leakage / Coverage / Test Effectiveness), повысившей управляемость QA и предсказуемость релизов</li>
+          <li>Внедрение матрицы компетенций (Skills Matrix): анализ пробелов в навыках, найм по целевым скилам, развитие скилов у инженеров команды</li>
+        </ul>
+      </article>
+
+      <div class="divider"></div>
+
+      <article class="job">
+        <h3>Старший инженер по тестированию</h3>
+        <p class="company">Тинькофф Банк | 10.2019 – 09.2023</p>
+
+        <h4>Обязанности</h4>
+        <ul>
+          <li>QA ownership backend/API микросервисов (Kafka, Postman, Swagger)</li>
+          <li>Проектирование стратегии тестирования (API / integration / UI)</li>
+          <li>Поддержка автоматизации критичных сценариев</li>
+          <li>Интеграция тестирования в CI/CD (smoke + regression)</li>
+          <li>Поддержка тестовых окружений и стабильности релизов</li>
+          <li>Работа с PostgreSQL, Cassandra, Redis</li>
+        </ul>
+
+        <h4>Результаты</h4>
+        <ul>
+          <li><span class="highlight">83%</span> покрытие ключевых бизнес-сценариев → <span class="highlight">−40%</span> времени регрессионного прогона</li>
+          <li><span class="highlight">−22%</span> Defect Leakage за счёт CI/CD интеграции тестов</li>
+          <li>~50 интервью QA кандидатов, развитие практик найма middle+</li>
+        </ul>
+      </article>
+
+      <div class="divider"></div>
+
+      <article class="job">
+        <h3>Инженер по тестированию</h3>
+        <p class="company">Тинькофф Банк | 11.2017 – 10.2019</p>
+        <ul>
+          <li>Web и API тестирование (REST API)</li>
+          <li>UI автоматизация (JS)</li>
+          <li>Сложные SELECT-запросы и проверка интеграций в PostgreSQL</li>
+        </ul>
+      </article>
+
+      <div class="divider"></div>
+
+      <article class="job">
+        <h3>Инженер по тестированию</h3>
+        <p class="company">Экстрим ПРО | 08.2016 – 10.2017</p>
+        <ul>
+          <li>Ручное тестирование web/desktop</li>
+          <li>API тестирование</li>
+          <li>Документация тест-кейсов и багов</li>
+          <li>Test management системы</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>🛠 Навыки</h2>
+      <p>Python (Pytest, HTTPX), JavaScript (Playwright), Go, API Testing, Backend Testing, Microservices, PostgreSQL, SQL, Kafka, Swagger, Postman, CI/CD, Test Automation, Shift-left Testing, Risk-based Testing, Test Strategy, QA Metrics, Jira, Confluence, TestRail, Allure, Cassandra, Redis, Kubernetes</p>
+    </section>
+
+    <section class="card">
+      <h2>🎓 Образование</h2>
+      <p>УрФУ им. Б.Н. Ельцина</p>
+      <p>Строительный институт | 2008 – 2015</p>
+    </section>
+
+  </main>
+</body>
+</html>
